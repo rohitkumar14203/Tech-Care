@@ -1,0 +1,38 @@
+.labTestContainer {
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 384px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+}
+.labTestItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.labTest {
+  margin-top: 10px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.labTest::-webkit-scrollbar {
+  width: 6px;
+}
+
+.labTest::-webkit-scrollbar-track {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+.labTest::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 20px;
+  min-height: 30px;
+  max-height: 60px;
+}

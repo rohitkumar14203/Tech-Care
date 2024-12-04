@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  height: 72px;
+  margin: 20px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
+.navbar_links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.navbar_links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+.navbar_links a span {
+  width: 63px;
+  height: 19px;
+}
+
+.navbar_links img {
+  width: 22px;
+  height: 17px;
+  margin-right: 4px;
+}
+
+.logo {
+  width: 211px;
+  height: 48px;
+}
+
+.navbar_user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user_text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user_info span {
+  width: 119px;
+  height: 19px;
+  font-weight: 500;
+}
+
+.user_info p {
+  width: 129px;
+  height: 19px;
+  font-size: 0.8rem;
+  color: #707070;
+}
+
+.icon_group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settings_icon,
+.dots_icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #01f0d0;
+  width: 122px;
+  height: 41px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}

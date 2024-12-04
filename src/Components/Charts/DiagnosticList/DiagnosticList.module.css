@@ -1,0 +1,75 @@
+.container {
+  background: #ffffff;
+  color: #072635;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 45px;
+  height: 349px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  padding: 15px 25px;
+  border-radius: 20px;
+  background-color: #f6f7f8;
+  margin-bottom: 16px;
+}
+
+.header span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 20px;
+  min-height: 30px;
+  max-height: 60px;
+}
+
+.listItem {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  padding: 14px;
+  align-items: center;
+}
+
+.diagnosis {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.status {
+  text-align: left;
+  font-size: 14px;
+}

@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 1.3rem;
+}
+
+.cards1,
+.cards2,
+.cards3 {
+  width: 228px;
+  height: 242px;
+  padding: 15px;
+  color: #072635;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards1 {
+  background-color: #e0f3fa;
+}
+
+.cards2 {
+  background-color: #ffe6e9;
+}
+
+.cards3 {
+  background-color: #ffe6f1;
+}
+
+.cards1 > img,
+.cards2 > img,
+.cards3 > img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 14px;
+}
+
+.normalText {
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.cards3 div {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: auto;
+}

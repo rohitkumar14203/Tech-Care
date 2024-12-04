@@ -1,0 +1,81 @@
+.SideBar {
+  width: 367px;
+  height: 1054px;
+  margin: 0 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  overflow-y: auto;
+  border-radius: 30px;
+  scroll-behavior: smooth;
+}
+
+.SideBar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.SideBar::-webkit-scrollbar-track {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+.SideBar::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 0 8px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #072635;
+}
+
+.header img {
+  width: 18px;
+  height: 18px;
+  color: #072635;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.patient_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.patient_info {
+  display: flex;
+  gap: 1rem;
+
+  align-items: center;
+}
+
+.patient_age {
+  font-size: 14px;
+  color: #707070;
+  margin-top: 4px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.selected {
+  background-color: #d8fcf7;
+}
